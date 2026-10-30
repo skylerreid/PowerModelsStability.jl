@@ -6,6 +6,7 @@
 - UPD: Add compat for PowerModelsDistribution v0.17, widen JSON compat to allow v1
 - UPD: Modernize CI/docs GitHub Actions versions (checkout, setup-julia, cache, codecov-action)
 - RM: Remove unused InfrastructureModels dependency
+- FIX: Documentation workflow was missing `julia-actions/setup-julia`, causing `julia: command not found`
 
 ## v0.4.0
 
